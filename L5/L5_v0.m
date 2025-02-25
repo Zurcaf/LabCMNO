@@ -1,4 +1,4 @@
-load('fp_lin_matrices_fit3.mat'); %%Load Matrices A, B, C, D
+load('../IP_MODEL.mat'); %%Load Matrices A, B, C, D
 Qr = diag([10,0,1,0,0]); %Weight Matrix for x
 Rr = 1; %Weight for the input variable
 K = lqr(A, B, Qr, Rr); %Calculate feedback gain

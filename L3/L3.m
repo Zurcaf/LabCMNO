@@ -1,5 +1,5 @@
 % Step 1: Load the model
-load('fp_lin_matrices_fit3.mat');
+load('../IP_MODEL.mat');
 % Step 2: Display the variables in the workspace
 who;
 % Step 3: Compute the Observability matrix for  measuring x3

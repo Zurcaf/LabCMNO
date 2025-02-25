@@ -1,5 +1,5 @@
 % Load system matrices
-load('fp_lin_matrices_fit3.mat'); % Loads A, B, C, D
+load('../IP_MODEL.mat'); % Loads A, B, C, D
 
 % Define initial weights for Q and R
 Q_initial = diag([10, 0, 1, 0, 0]); 
