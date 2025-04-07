@@ -3,7 +3,7 @@
 % ------------------------------
 
 % Load state model
-load('IP_MODEL.mat')
+load('../IP_MODEL.mat')
 
 
 % Constraints
